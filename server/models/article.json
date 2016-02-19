@@ -1,6 +1,6 @@
 {
-  "name": "article",
-  "plural": "articles",
+  "name": "Article",
+  "plural": "Articles",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -39,10 +39,12 @@
       "type": "number"
     },
     "created_at": {
-      "type": "date"
+      "type": "date",
+      "dataType": "timestamp"
     },
     "updated_at": {
-      "type": "date"
+      "type": "date",
+      "dataType": "timestamp"
     }
   },
   "validations": [],

@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "article": {
+  "Article": {
     "dataSource": "db",
     "public": true
   }
