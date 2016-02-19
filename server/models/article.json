@@ -1,0 +1,52 @@
+{
+  "name": "article",
+  "plural": "articles",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "family_id": {
+      "type": "number",
+      "required": true
+    },
+    "provider_id": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "reference": {
+      "type": "string"
+    },
+    "purchase_price": {
+      "type": "number"
+    },
+    "cost_price": {
+      "type": "number"
+    },
+    "sell_price": {
+      "type": "number"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
