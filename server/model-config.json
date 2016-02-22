@@ -35,5 +35,13 @@
   "Article": {
     "dataSource": "db",
     "public": true
+  },
+  "Family": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Provider": {
+    "dataSource": "db",
+    "public": true
   }
 }

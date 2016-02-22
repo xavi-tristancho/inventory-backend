@@ -11,14 +11,6 @@
       "type": "number",
       "required": true
     },
-    "family_id": {
-      "type": "number",
-      "required": true
-    },
-    "provider_id": {
-      "type": "number",
-      "required": true
-    },
     "name": {
       "type": "string",
       "required": true
@@ -48,7 +40,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "provider": {
+      "type": "belongsTo",
+      "model": "Provider",
+      "foreignKey": "provider_id"
+    },
+    "family": {
+      "type": "belongsTo",
+      "model": "Family",
+      "foreignKey": "family_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
