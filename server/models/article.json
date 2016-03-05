@@ -37,10 +37,7 @@
       "scale": 2
     },
     "quantity": {
-      "type": "number",
-      "dataType": "decimal",
-      "precision": 10,
-      "scale": 2
+      "type": "number"
     },
     "created_at": {
       "type": "date",
