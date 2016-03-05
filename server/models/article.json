@@ -19,16 +19,28 @@
       "type": "string"
     },
     "purchase_price": {
-      "type": "number"
+      "type": "number",
+      "dataType": "decimal",
+      "precision": 10,
+      "scale": 2
     },
     "cost_price": {
-      "type": "number"
+      "type": "number",
+      "dataType": "decimal",
+      "precision": 10,
+      "scale": 2
     },
     "sell_price": {
-      "type": "number"
+      "type": "number",
+      "dataType": "decimal",
+      "precision": 10,
+      "scale": 2
     },
     "quantity": {
-      "type": "number"
+      "type": "number",
+      "dataType": "decimal",
+      "precision": 10,
+      "scale": 2
     },
     "created_at": {
       "type": "date",
